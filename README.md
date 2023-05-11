@@ -1,4 +1,4 @@
-# Commit-a-crime
+# "Commit" a crime
 
 Making green your Github contributions via [Github Actions](https://github.com/features/actions)
 
