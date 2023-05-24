@@ -7,7 +7,7 @@ on:
       - main
       
   schedule:
-  - cron: "1 * * * *" # https://crontab.guru
+  - cron: "0 0 * * 6,3,2,1,0" # “At 00:00 on Saturday, Wednesday, Tuesday, Monday, and Sunday.” 
 
 jobs:
   auto_commit:
@@ -31,16 +31,16 @@ jobs:
           git config --local user.name "0xb4dc0d3x"
           git add -A
           
-          arr[0]="chore(bot): 0 auto commit"
-          arr[1]="chore(bot): 1 auto commit"
-          arr[2]="chore(bot): 2 auto commit"
-          arr[3]="chore(bot): 3 auto commit"
-          arr[4]="chore(bot): 4 auto commit"
-          arr[5]="chore(bot): 5 auto commit"
-          arr[6]="chore(bot): 6 auto commit"
-          arr[7]="chore(bot): 7 auto commit"
-          arr[8]="chore(bot): 8 auto commit"
-          arr[9]="chore(bot): 9 auto commit"
+          arr[0]="Marchello: commited a crime"
+          arr[1]="Marchello: commited a crime"
+          arr[2]="Marchello: commited a crime"
+          arr[3]="Marchello: commited a crime"
+          arr[4]="Marchello: commited a crime"
+          arr[5]="Marchello: commited a crime"
+          arr[6]="Marchello: commited a crime"
+          arr[7]="Marchello: commited a crime"
+          arr[8]="Marchello: commited a crime"
+          arr[9]="Marchello: commited a crime"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
