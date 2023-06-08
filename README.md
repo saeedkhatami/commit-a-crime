@@ -1,3 +1,5 @@
+[![Auto commit](https://github.com/0xb4dc0d3x/commit-a-crime/actions/workflows/autocommit.yml/badge.svg)](https://github.com/0xb4dc0d3x/commit-a-crime/actions/workflows/autocommit.yml)
+
 # "Commit" a crime
 
 Making green your Github contributions via [Github Actions](https://github.com/features/actions)
