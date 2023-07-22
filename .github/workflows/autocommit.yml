@@ -7,7 +7,7 @@ on:
       - main
       
   schedule:
-  - cron: "0 */3 * * 0-3,6" # “Runs at 0 minutes past the hour, every 3 hours, only on Sunday through Wednesday and Saturday. ” 
+  - cron: "0 0 * * 0-3,6" # “Runs at 0 minutes past the hour, every 3 hours, only on Sunday through Wednesday and Saturday. ” 
 
 jobs:
   auto_commit:
@@ -31,16 +31,16 @@ jobs:
           git config --local user.name "0xb4dc0d3x"
           git add -A
           
-          arr[0]="Marchello: commited a crime"
-          arr[1]="Marchello: commited a crime"
-          arr[2]="Marchello: commited a crime"
-          arr[3]="Marchello: commited a crime"
-          arr[4]="Marchello: commited a crime"
-          arr[5]="Marchello: commited a crime"
-          arr[6]="Marchello: commited a crime"
-          arr[7]="Marchello: commited a crime"
-          arr[8]="Marchello: commited a crime"
-          arr[9]="Marchello: commited a crime"
+          arr[0]="Marchello commited a crime"
+          arr[1]="Marchello commited a crime"
+          arr[2]="Marchello commited a crime"
+          arr[3]="Marchello commited a crime"
+          arr[4]="Marchello commited a crime"
+          arr[5]="Marchello commited a crime"
+          arr[6]="Marchello commited a crime"
+          arr[7]="Marchello commited a crime"
+          arr[8]="Marchello commited a crime"
+          arr[9]="Marchello commited a crime"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
