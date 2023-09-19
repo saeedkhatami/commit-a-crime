@@ -28,7 +28,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --local user.email "saeed.khatami.99@gmail.com"
-          git config --local user.name "saeed-khatami"
+          git config --local user.name "saeedkhatami"
           git add -A
           
           arr[0]="Marchello commited a crime"
