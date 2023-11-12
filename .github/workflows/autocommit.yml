@@ -7,7 +7,7 @@ on:
       - main
       
   schedule:
-  - cron: "0 2,6,10,14,18 * * *" # “Runs at 0 minutes past the hour, every 3 hours, only on Sunday through Wednesday and Saturday. ” 
+  - cron: "0 0 * * *" # Runs at 00:00 Actions schedules run at most every 5 minutes using UTC time.
 
 jobs:
   auto_commit:
@@ -32,15 +32,15 @@ jobs:
           git add -A
           
           arr[0]="Marchello commited a crime"
-          arr[1]="Marchello commited a crime"
-          arr[2]="Marchello commited a crime"
-          arr[3]="Marchello commited a crime"
-          arr[4]="Marchello commited a crime"
-          arr[5]="Marchello commited a crime"
-          arr[6]="Marchello commited a crime"
-          arr[7]="Marchello commited a crime"
-          arr[8]="Marchello commited a crime"
-          arr[9]="Marchello commited a crime"
+          arr[1]="Leonardo commited a crime"
+          arr[2]="Francesco commited a crime"
+          arr[3]="Lorenzo commited a crime"
+          arr[4]="Alessandro commited a crime"
+          arr[5]="Andrea commited a crime"
+          arr[6]="Riccardo commited a crime"
+          arr[7]="Antonio commited a crime"
+          arr[8]="Federico commited a crime"
+          arr[9]="Matteo commited a crime"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
