@@ -1,5 +1,3 @@
-**This workflow was disabled manually.**
-
 [![Auto commit](https://github.com/saeedkhatami/commit-a-crime/actions/workflows/autocommit.yml/badge.svg)](https://github.com/saeedkhatami/commit-a-crime/actions/workflows/autocommit.yml)
 
 # "Commit" a crime
